@@ -4,7 +4,7 @@
 #include <netinet/in.h>
 #include <netdb.h>
 
-
+//random comment
 void init_sockaddr(struct sockaddr_in *name, const char *hostname, uint16_t port)
 {
     struct hostent *hostinfo;
